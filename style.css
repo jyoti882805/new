@@ -1,0 +1,148 @@
+
+Style.css
+
+/* Reset default margins and paddings */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  /* Set font and background colors */
+  body {
+    font-family: Arial, sans-serif;
+    background-color:pink;
+    color: purple;
+  }
+ 
+  /* Style header */
+  header {
+    background-color: light purple;
+    color:white;
+    padding: 20px;
+  }
+ 
+  /* Style navigation */
+  nav ul {
+    list-style-type:none;
+    background-color:Pink;
+  padding: 10px;
+  text-align: right;
+}
+
+
+nav ul li {
+  display:inline;
+}
+
+
+nav ul li a {
+  color:black;
+  text-decoration:aqua;
+  padding: 10px;
+}
+
+
+/* Style sections */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #0a0a0a;
+  color:white
+}
+
+
+section h2 {
+  margin-bottom: 10px;
+  color:pink;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px;
+  background: var(--main-color);
+  border-radius: 5px;
+  color: var(--text-color);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: all .45s ease;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+}
+
+
+/* Style projects */
+.project {
+  margin-bottom: 20px;
+  padding:10px
+}
+
+
+.project h3 {
+  margin-top:10px;
+  color:pink;
+  text-align:center;
+}
+.voting-description{
+  margin-top:18px;
+  margin-bottom: 22px;
+  font-size:20px;
+}
+
+.project h4 {
+  margin-top:10px;
+  margin-bottom: 5px;
+  color:aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+/* Style footer */
+footer {
+  background-color: purple;
+  color: pink;
+  padding: 20px;
+  text-align: center;
+}
+.image{
+  height:200px;
+  width:150px;
+  border-radius: 400px;
+  text-align: center;
+  padding: 10px;
+}
+.image1{
+  text-align:center;
+  margin-top: 10px;
+}
+
+.voting-image{
+  height:200px;
+  width:200px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.voting-container{
+  text-align: center;
+  margin-bottom:20px;
+}
+.voting-module{
+  margin-top: 10px;
+  padding:5px
+}
+#about{
+  margin-top:10px;
+}
+.cafe-heading{
+  margin-bottom: 10px;
+}
